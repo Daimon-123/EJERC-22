@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    background-color: wheat;
+    width: 90%;
+    max-width:  1000px;
+    
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+}
+body{
+    font-family: sans-serif;
+    font-size: 1rem;}
+    /**inicio encabezado**/
+header{
+    width: 100%;
+    background-color: #034203;
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+
+
+    header #logo{
+        width: 90px;
+        height: 90px;
+        background-color: rgb(245, 245, 245);
+        width: 90px;
+        height: 90px; }
+        #logo:hover {
+            background-color: coral;
+        }
+        #logo:active{
+            background-color: darkblue;
+        }
+           header nav{ 
+        width: 50%;
+        height: 80px;
+        background-color: cornflowerblue;
+        border-radius: 10px ;
+        line-height: 3rem;
+        margin: 0.5rem;
+        padding: 1rem;
+    }
+     nav:hover {
+        background-color: coral;
+    }
+   nav:active{
+        background-color: darkblue;
+    }
+    /**fin encabezado*/
+    /**comienzo menu principal*/
+    main{
+        background-color: purple;
+        margin: 0.5rem;
+        padding: 1rem;
+        border-radius: 10px;
+        width: 70%;
+    }
+    main section{
+        background-color: rgb(182, 32, 182);
+        margin: 0.5rem;
+        padding: 1rem;
+        border-radius: 10px;
+        text-transform: uppercase;
+    }
+    main section article{
+        background-color: rgb(248, 46, 248);
+        margin: 0.5rem;
+        padding: 1rem;
+        border-radius: 10px;
+        width: 100%;
+    }
+    article:hover {
+        background-color: coral;
+    }
+    article:active{
+        background-color: darkblue;
+    }
+    /*fin menu principal*/
+    /*inicio barra lateral*/
+    aside{
+        background-color: yellow;
+        margin: 0.5rem;
+        padding: 1rem;
+        border-radius: 10px;
+       display: flex;
+       /*propiedad flexbox*/
+       flex-direction: column;
+       flex-wrap: wrap;
+       width: 26%;
+       display: flex;
+       justify-content:center ;
+       text-align: center;
+    }
+    aside  .pertem{
+        background-color: orange; 
+        margin: 0.5rem;
+        height: 90px;
+        border-radius: 10px;
+        
+    }
+    .pertem:hover {
+        background-color: coral;
+    }
+    .pertem:active{
+        background-color: darkblue;
+    }
+    /*fin barra lateral*/
+    /*inicio pie de paguina*/
+    footer{
+        background-color: goldenrod;
+        width: 100%;
+        margin: 0.5rem;
+        line-height: 4rem;
+        border-radius: 10px;
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+    }
